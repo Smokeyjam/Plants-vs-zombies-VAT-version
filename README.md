@@ -17,7 +17,7 @@ This version uses **Vertex Animation Textures (VAT)** to animate 3D models direc
   - Zombies prefer lanes with the weakest defenses, encouraging adaptive gameplay.
 - 🧠 **Object-Oriented Architecture**: Base `Plant` and `Zombie` classes with inheritance for extensibility.
 - 🚀 **GPU Instancing**:
-  - All Peashooters are instanced via the GPU (1 draw call total).
+  - All Peashooters are instanced via the GPU (only a few draw calls total, instead of a few draw calls for each plant).
   - Individual plants can activate animations by setting parameters in the shader.
 - **50/50 Rule Implemented** spawns the next wave of zombies if the current wave's health is below 50%.
 
