@@ -28,3 +28,7 @@ This version uses **Vertex Animation Textures (VAT)** to animate 3D models direc
 1. Clone this repository (Godot 4.4+ required):
    ```bash
    git clone https://github.com/your-username/Plants-vs-zombies-VAT-version.git
+
+## 🧩 Dependencies & Credits
+
+    VAT System Plugin: Based on antzGames/Godot_Vertex_Animation_Textures_Plugin. Credit to antzGames for the foundational VAT implementation used to create custom vertex animations.
