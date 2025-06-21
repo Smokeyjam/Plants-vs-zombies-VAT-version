@@ -31,4 +31,4 @@ This version uses **Vertex Animation Textures (VAT)** to animate 3D models direc
 
 ## 🧩 Dependencies & Credits
 
-    VAT System Plugin: Based on antzGames/Godot_Vertex_Animation_Textures_Plugin. Credit to antzGames for the foundational VAT implementation used to create custom vertex animations.
+  VAT System Plugin: Based on antzGames/Godot_Vertex_Animation_Textures_Plugin. Credit to antzGames for the foundational VAT implementation used to create custom vertex animations.
