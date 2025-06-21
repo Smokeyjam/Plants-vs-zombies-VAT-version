@@ -1,7 +1,7 @@
 [gd_scene load_steps=28 format=4 uid="uid://bkra1d31ffxsh"]
 
 [ext_resource type="Script" uid="uid://bgkvnovk5hy16" path="res://Script/zombie_logic.gd" id="1_xi6ot"]
-[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Default_Destroyed_Effect.tscn" id="2_ju3sq"]
+[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Old_Assests/Default_Destroyed_Effect.tscn" id="2_ju3sq"]
 [ext_resource type="PackedScene" uid="uid://cvdofsa4c2tf5" path="res://Script/Master Components/health_component.tscn" id="3_j6gqm"]
 [ext_resource type="Script" uid="uid://b8ofk5yp5m5w3" path="res://Script/Master Components/Zombie_Health_Component.gd" id="4_kc783"]
 [ext_resource type="Material" uid="uid://duqsc0gfepvw5" path="res://Assets/Materials/Outline.tres" id="5_v4bxc"]

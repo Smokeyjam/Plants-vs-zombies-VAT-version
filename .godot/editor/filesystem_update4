@@ -1,8 +1,8 @@
 res://Main.tscn
-res://Assets/Materials/Sun.tres
 res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres
 res://Assets/Materials/Outline.tres
 res://Prefabs/Zombies/Cone_Head/Zombie_Cone_Head.tres
+res://Assets/Materials/Sun.tres
 res://Prefabs/Tiles/Grass_Tiles/Grass.gdshader
 res://Prefabs/Tiles/Grass_Tiles/Grass_2.gdshader
 res://Prefabs/Tiles/Grass_Tiles/Grass_2.tres
@@ -18,7 +18,6 @@ res://Assets/Materials/Pea_Particle_Effect.tres
 res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
 res://Prefabs/Plants/VAT/Pea_Shooter_2/vat_multiple_anims.gdshader
 res://Prefabs/Plants/VAT/Pea_Shooter_2/export_mesh.mesh
-res://Grass_Square.gdshader
 res://Prefabs/Grass/GDquest_Grass.gdshader
 res://Prefabs/Plants/VAT/Sun_Flower/vat_multiple_anims_Sun_Flower.gdshader
 res://Assets/Materials/Cel_Shader.gdshader

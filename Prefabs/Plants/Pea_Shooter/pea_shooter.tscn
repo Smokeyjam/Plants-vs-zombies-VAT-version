@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=4 uid="uid://cwxwgtqlmg0uv"]
 
 [ext_resource type="Script" uid="uid://cs83r7whsfyjp" path="res://Script/Pea_Shooter.gd" id="1_ppmep"]
-[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Default_Destroyed_Effect.tscn" id="2_0k522"]
+[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Old_Assests/Default_Destroyed_Effect.tscn" id="2_0k522"]
 [ext_resource type="PackedScene" uid="uid://cvdofsa4c2tf5" path="res://Script/Master Components/health_component.tscn" id="3_xsrx7"]
 [ext_resource type="PackedScene" uid="uid://b37kbbgsndqtt" path="res://Script/Master Components/hitbox_component.tscn" id="4_2bqbn"]
 [ext_resource type="Material" uid="uid://cb4xd8gqgh64l" path="res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres" id="5_lyxe5"]

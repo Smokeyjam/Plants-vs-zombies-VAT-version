@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=4 uid="uid://jbftda3rfie3"]
 
 [ext_resource type="Script" uid="uid://eksa5k0str8b" path="res://Script/Sun_flower.gd" id="1_mwssi"]
-[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Default_Destroyed_Effect.tscn" id="2_r1wyn"]
+[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Old_Assests/Default_Destroyed_Effect.tscn" id="2_r1wyn"]
 [ext_resource type="PackedScene" uid="uid://cvdofsa4c2tf5" path="res://Script/Master Components/health_component.tscn" id="3_0r7s3"]
 [ext_resource type="PackedScene" uid="uid://b37kbbgsndqtt" path="res://Script/Master Components/hitbox_component.tscn" id="4_yex0x"]
 [ext_resource type="Material" uid="uid://vk1irrqr2ckd" path="res://Prefabs/Plants/Sun_Flower/SunFlower.tres" id="5_hi0fk"]

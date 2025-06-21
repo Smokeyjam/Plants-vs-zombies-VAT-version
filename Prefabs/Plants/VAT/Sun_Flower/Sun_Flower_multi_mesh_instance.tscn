@@ -26,7 +26,7 @@ transform_format = 1
 use_custom_data = true
 instance_count = 1
 mesh = ExtResource("5_0psuj")
-buffer = PackedFloat32Array(5.60519e-45, 1.4013e-44, 7.00649e-45, 5.60519e-45, 1.54143e-44, 1.4013e-44, 7.00649e-45, 1.26117e-44, 8.40779e-45, 7.00649e-45, 1.4013e-44, 1.26117e-44, 8.40779e-45, 1.12104e-44, 9.80909e-45, 8.40779e-45)
+buffer = PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
 [node name="Sun_Flower" type="MultiMeshInstance3D"]
 material_override = SubResource("ShaderMaterial_j6jxv")

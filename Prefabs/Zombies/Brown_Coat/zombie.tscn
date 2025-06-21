@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cuxaf8osa8spe" path="res://Script/Master Components/Hitbox_Component.gd" id="1_jyo2f"]
 [ext_resource type="PackedScene" uid="uid://cvdofsa4c2tf5" path="res://Script/Master Components/health_component.tscn" id="2_fnren"]
 [ext_resource type="Script" uid="uid://bgkvnovk5hy16" path="res://Script/zombie_logic.gd" id="3_bib3k"]
-[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Default_Destroyed_Effect.tscn" id="4_bjbws"]
+[ext_resource type="PackedScene" uid="uid://dwyhwcmfpnb83" path="res://Prefabs/Old_Assests/Default_Destroyed_Effect.tscn" id="4_bjbws"]
 [ext_resource type="Script" uid="uid://b8ofk5yp5m5w3" path="res://Script/Master Components/Zombie_Health_Component.gd" id="4_j7jcf"]
 [ext_resource type="PackedScene" uid="uid://xbkqm4dlbynj" path="res://Script/Master Components/damage_component.tscn" id="5_jjp7j"]
 [ext_resource type="Material" uid="uid://wt3j3yykgi6d" path="res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres" id="7_jmani"]

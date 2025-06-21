@@ -1,21 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750451829
+::res://::1750506715
 default_env.tres::Environment/Environment::-1::1522362484::0::1::::<><><>0<>0<><>::res://Assets/Textures/hdrihaven_com_kiara_3_morning.jpg
-Grass_Square.gdshader::Shader::5993094349126023274::1750135765::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::8807250582716949433::1522362484::1750023925::1::::<><><>0<>0<>01b7c66051fb01c222e624430dede694<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-Main.tscn::PackedScene::7418250956580436765::1750135581::0::1::::<><><>0<>0<><>::uid://chbwb7atiqxbt::::res://Script/Map_initiator.gd<>uid://xostg3otv1mx::::res://Script/Player.gd<>uid://c5dpj57r8itih::::res://Script/Game_Manager.gd<>uid://divurdiy60m6::::res://Script/UI.gd<>uid://ca2bsmi32crq5::::res://Script/seed_slot.gd<>uid://jbftda3rfie3::::res://Prefabs/Plants/Sun_Flower/sun_flower.tscn<>uid://cwxwgtqlmg0uv::::res://Prefabs/Plants/Pea_Shooter/pea_shooter.tscn<>uid://b1q3qneswflcf::::res://Prefabs/Plants/Pea_Shooter/Pea_Shooter_Mesh.tscn<>uid://imquspdfn8f::::res://Prefabs/Plants/VAT/Pea_Shooter_2/Pea_Shooter_multi_mesh_instance.tscn<>uid://bh1uhtmmse2fb::::res://Prefabs/Plants/Sun_Flower/sunflower_Mesh.tscn<>uid://crndng531gvnm::::res://Grass_Square.gdshader<>uid://dxhbyrw8rpy0::::res://Prefabs/Grass/TilesMap3.png<>uid://co24lil6iqc4o::::res://Prefabs/Grass/GDquest_Grass.gdshader<>uid://3eho74y0sl4q::::res://Prefabs/Plants/VAT/Sun_Flower/Sun_Flower_multi_mesh_instance.tscn<>uid://dwi7tpycuvohf::::res://Prefabs/Grass/Grass_MeshV2.obj<>uid://dmtp3cydshv82::::res://Script/Zombie_mesh_instances_manager.gd<>uid://cqrghgl6r00xm::::res://Script/mesh_instances_manager.gd
+Main.tscn::PackedScene::7418250956580436765::1750451839::0::1::::<><><>0<>0<><>::uid://chbwb7atiqxbt::::res://Script/Map_initiator.gd<>uid://xostg3otv1mx::::res://Script/Player.gd<>uid://c5dpj57r8itih::::res://Script/Game_Manager.gd<>uid://divurdiy60m6::::res://Script/UI.gd<>uid://ca2bsmi32crq5::::res://Script/seed_slot.gd<>uid://jbftda3rfie3::::res://Prefabs/Plants/Sun_Flower/sun_flower.tscn<>uid://cwxwgtqlmg0uv::::res://Prefabs/Plants/Pea_Shooter/pea_shooter.tscn<>uid://b1q3qneswflcf::::res://Prefabs/Plants/Pea_Shooter/Pea_Shooter_Mesh.tscn<>uid://imquspdfn8f::::res://Prefabs/Plants/VAT/Pea_Shooter_2/Pea_Shooter_multi_mesh_instance.tscn<>uid://bh1uhtmmse2fb::::res://Prefabs/Plants/Sun_Flower/sunflower_Mesh.tscn<>uid://crndng531gvnm::::res://Grass_Square.gdshader<>uid://dxhbyrw8rpy0::::res://Prefabs/Grass/TilesMap3.png<>uid://co24lil6iqc4o::::res://Prefabs/Grass/GDquest_Grass.gdshader<>uid://3eho74y0sl4q::::res://Prefabs/Plants/VAT/Sun_Flower/Sun_Flower_multi_mesh_instance.tscn<>uid://dwi7tpycuvohf::::res://Prefabs/Grass/Grass_MeshV2.obj<>uid://dmtp3cydshv82::::res://Script/Zombie_mesh_instances_manager.gd<>uid://cqrghgl6r00xm::::res://Script/mesh_instances_manager.gd
 pea_shooter_v_9_game_export.tscn::PackedScene/PackedScene::1550846722791348062::1750023968::0::1::::<><><>0<>0<><>::uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
-README.md::TextFile/TextFile::-1::1732689314::0::1::::<><><>0<>0<><>::
-Wave.gd::GDScript/GDScript::6937381607445282360::1733859735::0::1::::Wave<>Node3D<><>0<>0<><>::
-wave.tscn::PackedScene/PackedScene::7501585560348407252::1750023968::0::1::::<><><>0<>0<><>::uid://c53rwqyajokia::::res://Wave.gd
+README.md::TextFile::-1::1750506587::0::1::::<><><>0<>0<><>::
 ::res://addons/::1750025905
 ::res://addons/godot_vat/::1750023925
 godot_vat.gd::GDScript/GDScript::5603350160357583876::1739432551::0::1::::<>EditorPlugin<><>0<>1<><>::
 plugin.cfg::TextFile/TextFile::-1::1739432551::0::1::::<><><>0<>0<><>::
 VATMultiMeshInstance3D.svg::CompressedTexture2D/CompressedTexture2D::2523061839974460117::1739432551::1750023925::1::::<><><>0<>0<>fa7b1bfb28340e38ff17d2bfe30fe2f5<>res://.godot/imported/VATMultiMeshInstance3D.svg-5bec28c815cdc37fddff78e9f7408cc1.ctex::
 vat_multi_mesh_instance_3d.gd::GDScript/GDScript::3093585913967130371::1739432551::0::1::::VATMultiMeshInstance3D<>MultiMeshInstance3D<><>0<>1<><>::
-::res://addons/godot_vat/shaders/::1750135765
-vat_multiple_anims.gdshader::Shader::493452851525223709::1750135765::0::1::::<><><>0<>0<><>::
+::res://addons/godot_vat/shaders/::1750451938
+vat_multiple_anims.gdshader::Shader::493452851525223709::1750451938::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1749794203
 ::res://Assets/Cars/::1749794203
 ::res://Assets/Cars/Caterham/::1750023959
@@ -53,19 +50,20 @@ Turning point orange.material::StandardMaterial3D/StandardMaterial3D::-1::152236
 ::res://Assets/Cars/Jeep/::1750023932
 JeepV39 Atlas.glb::PackedScene/PackedScene::8382349257263583882::1721972550::1750023932::1::::<><><>0<>0<>fd7df75b9bbeb15c3e39866e1e9d9e27<>res://.godot/imported/JeepV39 Atlas.glb-91dbeff159ae9aafa6b69f46653c92e2.scn::uid://duqsc0gfepvw5::::res://Assets/Materials/Outline.tres
 JeepV39 Atlas_Atlas_Low_Res.png::CompressedTexture2D/CompressedTexture2D::7271048260174000767::1721972554::1750023926::1::::<><><>0<>0<>c7e5883e016cb0007f481cf0a3882cf6<>res://.godot/imported/JeepV39 Atlas_Atlas_Low_Res.png-f4046839e667769ff62e9242bdd67ca5.s3tc.ctex::
-::res://Assets/Materials/::1750135765
-Cel_Shader.gdshader::Shader::4516965619178300481::1750135765::0::1::::<><><>0<>0<><>::
+::res://Assets/Materials/::1750506429
+Cel_Shader.gdshader::Shader::4516965619178300481::1750451938::0::1::::<><><>0<>0<><>::
 Cel_Shading_Jeep.tres::ShaderMaterial/ShaderMaterial::9030708510986842165::1724561596::0::1::::<><><>0<>0<><>::res://Assets/Materials/Cel_Shader.gdshader<>uid://ddglca7h1qqw2::::res://Assets/Textures/Atlas_Low_Resv3.png
 Cel_Shading_Wheels.tres::ShaderMaterial/ShaderMaterial::3276861272742962779::1724561596::0::1::::<><><>0<>0<><>::res://Assets/Materials/Cel_Shader.gdshader<>uid://ddglca7h1qqw2::::res://Assets/Textures/Atlas_Low_Resv3.png
-Fence.tres::StandardMaterial3D::7212448198664786967::1750134807::0::1::::<><><>0<>0<><>::
-Grass.tres::StandardMaterial3D::6472116717215432152::1750134807::0::1::::<><><>0<>0<><>::
-Grass_dark.tres::StandardMaterial3D::6394941524619157676::1750134807::0::1::::<><><>0<>0<><>::
+Fence.tres::StandardMaterial3D::7212448198664786967::1750451839::0::1::::<><><>0<>0<><>::
+Grass.tres::StandardMaterial3D::6472116717215432152::1750451839::0::1::::<><><>0<>0<><>::
+Grass_dark.tres::StandardMaterial3D::6394941524619157676::1750451839::0::1::::<><><>0<>0<><>::
+Grass_Square.gdshader::Shader::5993094349126023274::1750451938::0::1::::<><><>0<>0<><>::
 Jeep.tres::StandardMaterial3D/StandardMaterial3D::4539458292805305870::1722205460::0::1::::<><><>0<>0<><>::uid://dbufdqr5xvst0::::res://Assets/Cars/Jeep/JeepV39 Atlas_Atlas_Low_Res.png<>uid://ddglca7h1qqw2::::res://Assets/Textures/Atlas_Low_Resv3.png
-Outline.tres::StandardMaterial3D::8597166767948230582::1750134807::0::1::::<><><>0<>0<><>::
-Pea_Particle_Effect.tres::StandardMaterial3D::1357011493229870931::1750134807::0::1::::<><><>0<>0<><>::
-Road.tres::StandardMaterial3D::1794539102444884421::1750134807::0::1::::<><><>0<>0<><>::
-Stone_Tile.tres::StandardMaterial3D::8502525531667232516::1750134807::0::1::::<><><>0<>0<><>::
-Sun.tres::StandardMaterial3D::7068112352574730705::1750134806::0::1::::<><><>0<>0<><>::
+Outline.tres::StandardMaterial3D::8597166767948230582::1750451839::0::1::::<><><>0<>0<><>::
+Pea_Particle_Effect.tres::StandardMaterial3D::1357011493229870931::1750451839::0::1::::<><><>0<>0<><>::
+Road.tres::StandardMaterial3D::1794539102444884421::1750451839::0::1::::<><><>0<>0<><>::
+Stone_Tile.tres::StandardMaterial3D::8502525531667232516::1750451839::0::1::::<><><>0<>0<><>::
+Sun.tres::StandardMaterial3D::7068112352574730705::1750451839::0::1::::<><><>0<>0<><>::
 Wheel.tres::StandardMaterial3D/StandardMaterial3D::8563294874848442064::1733856523::0::1::::<><><>0<>0<><>::uid://dbufdqr5xvst0::::res://Assets/Cars/Jeep/JeepV39 Atlas_Atlas_Low_Res.png
 ::res://Assets/Models/::1750023960
 DB_M2_BrowningV5_game.glb::PackedScene/PackedScene::7146846639670388531::1723498807::1750023932::1::::<><><>0<>0<>e9b804f8c154d5198b79c41bcff1d49c<>res://.godot/imported/DB_M2_BrowningV5_game.glb-358730b6885e114ee9a268b74ddddf11.scn::uid://egiipbapb8pi::::res://Assets/Models/DB_M2_BrowningV5_game_Ucupaint Material Color.png
@@ -82,10 +80,10 @@ RockV3_Rock_LOD_0_Texture.png::CompressedTexture2D/CompressedTexture2D::69843566
 Atlas_Low_Resv3.png::CompressedTexture2D/CompressedTexture2D::7382886356813182023::1722203720::1750023926::1::::<><><>0<>0<>35aadb23c9ec5b9dceee7df70e4d58e0<>res://.godot/imported/Atlas_Low_Resv3.png-71c1517143a40ed28479117c5c6c591d.s3tc.ctex::
 hdrihaven_com_kiara_3_morning.jpg::CompressedTexture2D/CompressedTexture2D::3339704660781868461::1522362484::1750023926::1::::<><><>0<>0<>7c7d7828e0e07df9c77f9932897a66db<>res://.godot/imported/hdrihaven_com_kiara_3_morning.jpg-97bdae80c883342eedbbb5b9735d929a.ctex::
 TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg::CompressedTexture2D/CompressedTexture2D::2774962557000934143::1522362484::1750023926::1::::<><><>0<>0<>aad17dacfcbc26a2a4933f605144d8a7<>res://.godot/imported/TexturesCom_MetalFloorsBare0063_2_seamless_S.jpg-66acde015e08e5c7d037dcf98ef08cda.s3tc.ctex::
-::res://Prefabs/::1750023966
-Default_Destroyed_Effect.tscn::PackedScene/PackedScene::8753426107460811898::1750023966::0::1::::<><><>0<>0<><>::
+::res://Prefabs/::1750506459
 lawn_mower.tscn::PackedScene/PackedScene::8736507160761836686::1750023966::0::1::::<><><>0<>0<><>::uid://bbvcch71qaha2::::res://Script/lawn_mower.gd
 sun.tscn::PackedScene/PackedScene::217727586936700126::1750023966::0::1::::<><><>0<>0<><>::uid://c7x31pd8d2vif::::res://Assets/Materials/Sun.tres<>uid://b3ul8mcfwtv85::::res://Script/sun.gd
+wave.tscn::PackedScene::7501585560348407252::1750023968::0::1::::<><><>0<>0<><>::uid://c53rwqyajokia::::res://Wave.gd
 ::res://Prefabs/Bullets/::1750023961
 bullet.tscn::PackedScene/PackedScene::803799997444135819::1750023960::0::1::::<><><>0<>0<><>::uid://bybedy3fgt47f::::res://Prefabs/Bullets/Pea.tres<>uid://bmjqluw6fhfus::::res://Script/Bullet.gd<>uid://tll1s4wxrwln::::res://Assets/Materials/Pea_Particle_Effect.tres
 Pea2.fbx::PackedScene/PackedScene::821551262349757252::1734131979::1750023927::1::::<><><>0<>0<>0e37e6e39e4705f06e01bcfa76303d83<>res://.godot/imported/Pea2.fbx-8b2cef8fe10fbe1fbdb32f5330284ecb.scn::
@@ -93,8 +91,8 @@ Pea.fbx::PackedScene/PackedScene::2755602248546335331::1734131647::1750023927::1
 Pea.tres::StandardMaterial3D/StandardMaterial3D::4073266838163622225::1749682470::0::1::::<><><>0<>0<><>::
 Pea_Baked.png::CompressedTexture2D/CompressedTexture2D::732180269790530520::1734131664::1750023925::1::::<><><>0<>0<>33d71a6d9f353db49a5d325afbb965d4<>res://.godot/imported/Pea_Baked.png-ed4ab619016125b547f57076174f1b87.s3tc.ctex::
 pea_pellet.tscn::PackedScene/PackedScene::6640032639420388447::1750023961::0::1::::<><><>0<>0<><>::uid://bmjqluw6fhfus::::res://Script/Bullet.gd<>uid://tll1s4wxrwln::::res://Assets/Materials/Pea_Particle_Effect.tres<>uid://kow5w18nabgy::::res://Prefabs/Bullets/Pea_Baked.png
-::res://Prefabs/Grass/::1750135765
-GDquest_Grass.gdshader::Shader::5813004252800921488::1750135765::0::1::::<><><>0<>0<><>::
+::res://Prefabs/Grass/::1750451938
+GDquest_Grass.gdshader::Shader::5813004252800921488::1750451938::0::1::::<><><>0<>0<><>::
 grass.tscn::PackedScene/PackedScene::7329675137301765034::1750023961::0::1::::<><><>0<>0<><>::
 Grass_Mesh.fbx::PackedScene/PackedScene::2122754635840496175::1733223804::1750023929::1::::<><><>0<>0<>b111b363aa120483cb84cff0ddb12ec0<>res://.godot/imported/Grass_Mesh.fbx-5ae4f4ad3b51004fe141967fdb2d91dd.scn::
 Grass_Mesh.obj::Mesh/Mesh::5500874951545721060::1733224096::1750023926::1::::<><><>0<>0<>50ab77e942e5e39f01726f9e27f54b21<>res://.godot/imported/Grass_Mesh.obj-06d0af00a1ac3ca4347928bdf4b286fa.mesh<*>res://.godot/imported/Grass_Mesh.obj-06d0af00a1ac3ca4347928bdf4b286fa.mesh::
@@ -103,9 +101,10 @@ Stone_Tile.obj::Mesh/Mesh::8576942018669793196::1733247403::1750023926::1::::<><
 TilesMap2.png::CompressedTexture2D/CompressedTexture2D::5526078979436477310::1733238618::1750023925::1::::<><><>0<>0<>74f9c1805ba336392493298b5dc65401<>res://.godot/imported/TilesMap2.png-075cf3119fe436d8ce31015ee5716a60.s3tc.ctex::
 TilesMap3.png::CompressedTexture2D/CompressedTexture2D::258475311867185437::1733240454::1750023925::1::::<><><>0<>0<>bea850b419a839fd75d1bca53c1da632<>res://.godot/imported/TilesMap3.png-e0afa98b70c5e4f85472f0066a13cf0b.s3tc.ctex::
 TilesMap.png::CompressedTexture2D/CompressedTexture2D::5170266424443138300::1733236746::1750023925::1::::<><><>0<>0<>df28b4952d09101cdbd0ab53f52b74bb<>res://.godot/imported/TilesMap.png-b0312775d2fbd341250d93a375609f05.s3tc.ctex::
-::res://Prefabs/Old_Assests/::1750023962
+::res://Prefabs/Old_Assests/::1750506387
 DB_M2_BrowningV5_game.glb::PackedScene/PackedScene::3065334039648784710::1723498596::1750023933::1::::<><><>0<>0<>4f466b9d5467f213694114324715ef27<>res://.godot/imported/DB_M2_BrowningV5_game.glb-3e3efe263a34dbf49313b0d6dd776f94.scn::uid://cv54lqqaf2608::::res://Prefabs/Old_Assests/DB_M2_BrowningV5_game_Ucupaint Material Color.png
 DB_M2_BrowningV5_game_Ucupaint Material Color.png::CompressedTexture2D/CompressedTexture2D::6310519718028109335::1723498455::1750023925::1::::<><><>0<>0<>550bc4f24a909bf6889a388db8c68560<>res://.godot/imported/DB_M2_BrowningV5_game_Ucupaint Material Color.png-123818b4ad01818030fb5c66989beb77.s3tc.ctex::
+Default_Destroyed_Effect.tscn::PackedScene::8753426107460811898::1750023966::0::1::::<><><>0<>0<><>::
 Jeep.tscn::PackedScene/PackedScene::1943055933039209127::1750023961::0::1::::<><><>0<>0<><>::uid://c0aiqe08ut3uv::::res://Script/Old_Scripts/Car.gd<>uid://duqsc0gfepvw5::::res://Assets/Materials/Outline.tres<>uid://b5w7hkm3jrnra::::res://Assets/Materials/Jeep.tres<>uid://d1wspj640wunl::::res://Assets/Materials/Cel_Shading_Jeep.tres<>uid://duaehldb7p8k7::::res://Assets/Materials/Wheel.tres<>uid://bmxloq6qtcupn::::res://Assets/Materials/Cel_Shading_Wheels.tres
 oil_barrel.tscn::PackedScene/PackedScene::4518673894912907177::1750023961::0::1::::<><><>0<>0<><>::uid://cuxaf8osa8spe::::res://Script/Master Components/Hitbox_Component.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b3etkbexw21ge::::res://Assets/Models/Oil_Barrel_High_Poly_Barrel Texture.png
 rock.tscn::PackedScene/PackedScene::3798088403993013497::1750023961::0::1::::<><><>0<>0<><>::uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b37kbbgsndqtt::::res://Script/Master Components/hitbox_component.tscn
@@ -113,19 +112,19 @@ RockV3.glb::PackedScene/PackedScene::5852171230594972439::1723498624::1750023934
 RockV3_Rock_LOD_0_Texture.png::CompressedTexture2D/CompressedTexture2D::6419626981451956560::1723498625::1750023925::1::::<><><>0<>0<>e8793499cd6d73449e7eff0dee3b917b<>res://.godot/imported/RockV3_Rock_LOD_0_Texture.png-b745ae477d573cc7607686ee0853580e.s3tc.ctex::
 rock_wall.tscn::PackedScene/PackedScene::2581480147510118585::1750023962::0::1::::<><><>0<>0<><>::uid://c6rjll1kxfuai::::res://Assets/Models/RockV3_Rock_LOD_0_Texture.png
 ::res://Prefabs/Plants/::1749794203
-::res://Prefabs/Plants/Pea_Shooter/::1750135581
-PeaShooter.tres::StandardMaterial3D::4904300757381989369::1750134807::0::1::::<><><>0<>0<><>::uid://jvhkekubcv3i::::res://Prefabs/Plants/Pea_Shooter/PeaShooter_Baked.png
+::res://Prefabs/Plants/Pea_Shooter/::1750451840
+PeaShooter.tres::StandardMaterial3D::4904300757381989369::1750451839::0::1::::<><><>0<>0<><>::uid://jvhkekubcv3i::::res://Prefabs/Plants/Pea_Shooter/PeaShooter_Baked.png
 PeaShooter_Baked.png::CompressedTexture2D/CompressedTexture2D::675494628917554356::1732521300::1750023925::1::::<><><>0<>0<>edefdcf6380d5d57369c7dcf2ef7b646<>res://.godot/imported/PeaShooter_Baked.png-32af26c016c9b56f3dd6934aec1c4523.s3tc.ctex::
-pea_shooter.tscn::PackedScene::6365824127547195505::1750135581::0::1::::<><><>0<>0<><>::uid://cs83r7whsfyjp::::res://Script/Pea_Shooter.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b37kbbgsndqtt::::res://Script/Master Components/hitbox_component.tscn<>uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
+pea_shooter.tscn::PackedScene::6365824127547195505::1750451840::0::1::::<><><>0<>0<><>::uid://cs83r7whsfyjp::::res://Script/Pea_Shooter.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b37kbbgsndqtt::::res://Script/Master Components/hitbox_component.tscn<>uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
 Pea_ShooterV10_Game_Export.fbx::PackedScene/PackedScene::1705111366706178409::1732908488::1750023933::1::::<><><>0<>0<>00fc0635317940d964de64074df9156a<>res://.godot/imported/Pea_ShooterV10_Game_Export.fbx-3478282d1111971217e427f441d4c733.scn::uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
 Pea_Shooter_Mesh.tscn::PackedScene/PackedScene::4246090000677054653::1750023963::0::1::::<><><>0<>0<><>::uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
 pea_shooter_v_9_Model.tscn::PackedScene/PackedScene::3203419122944373480::1750023963::0::1::::<><><>0<>0<><>::uid://cb4xd8gqgh64l::::res://Prefabs/Plants/Pea_Shooter/PeaShooter.tres
-::res://Prefabs/Plants/Sun_Flower/::1750135582
-SunFlower.tres::StandardMaterial3D::1496203342011820935::1750134807::0::1::::<><><>0<>0<><>::uid://bbtguwi07e3rn::::res://Prefabs/Plants/Sun_Flower/Sunflower_Baked.png
+::res://Prefabs/Plants/Sun_Flower/::1750451840
+SunFlower.tres::StandardMaterial3D::1496203342011820935::1750451839::0::1::::<><><>0<>0<><>::uid://bbtguwi07e3rn::::res://Prefabs/Plants/Sun_Flower/Sunflower_Baked.png
 Sunflowerv13_Game.fbx::PackedScene/PackedScene::5007617592399373623::1732893509::1750023933::1::::<><><>0<>0<>767808727b19894fb3f66b2678c90c33<>res://.godot/imported/Sunflowerv13_Game.fbx-3e912d499eff120ce24f4c80efbd240e.scn::uid://vk1irrqr2ckd::::res://Prefabs/Plants/Sun_Flower/SunFlower.tres
 Sunflower_Baked.png::CompressedTexture2D/CompressedTexture2D::2496233891543942911::1732674194::1750023925::1::::<><><>0<>0<>b295fa1eed70b90018929e5fa5edd6c7<>res://.godot/imported/Sunflower_Baked.png-b4cbfac7a92c1aeb221fc25b926151a3.s3tc.ctex::
 sunflower_Mesh.tscn::PackedScene/PackedScene::2932644268228318935::1750023963::0::1::::<><><>0<>0<><>::uid://vk1irrqr2ckd::::res://Prefabs/Plants/Sun_Flower/SunFlower.tres
-sun_flower.tscn::PackedScene::634101644409542524::1750135582::0::1::::<><><>0<>0<><>::uid://eksa5k0str8b::::res://Script/Sun_flower.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b37kbbgsndqtt::::res://Script/Master Components/hitbox_component.tscn<>uid://vk1irrqr2ckd::::res://Prefabs/Plants/Sun_Flower/SunFlower.tres
+sun_flower.tscn::PackedScene::634101644409542524::1750451840::0::1::::<><><>0<>0<><>::uid://eksa5k0str8b::::res://Script/Sun_flower.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b37kbbgsndqtt::::res://Script/Master Components/hitbox_component.tscn<>uid://vk1irrqr2ckd::::res://Prefabs/Plants/Sun_Flower/SunFlower.tres
 ::res://Prefabs/Plants/VAT/::1750053683
 ::res://Prefabs/Plants/VAT/Pea_Shooter/::1750023933
 Pea_Shooter-remap_info.json::JSON/JSON::-1::1739997509::0::1::::<><><>0<>0<><>::
@@ -134,42 +133,42 @@ Pea_ShooterV9_Game_Export_VAT_Ucupaint Pea_Shooter Color.png::CompressedTexture2
 Pea_Shooter_vat.png::CompressedTexture2D/CompressedTexture2D::3819224822313311424::1739996644::1750023924::1::::<><><>0<>0<>53cb5703175961bbb968a8cd7a956495<>res://.godot/imported/Pea_Shooter_vat.png-706c37cd96d8a07fcade317c5052e662.ctex::
 Pea_Shooter_VAT.tres::ShaderMaterial/ShaderMaterial::8270845855286436030::1740005661::0::1::::<><><>0<>0<><>::uid://dc06uvvlcxpxr::::res://Prefabs/Zombies_VAT/BrownCoat/VAT_Shader.tres<>uid://jvhkekubcv3i::::res://Prefabs/Plants/Pea_Shooter/PeaShooter_Baked.png<>uid://buoccsrbbqefw::::res://Prefabs/Plants/VAT/Pea_Shooter/Pea_Shooter_vat.png
 Pea_Shooter_vnrm.png::CompressedTexture2D/CompressedTexture2D::6378816096223178116::1739996648::1750023924::1::::<><><>0<>0<>11b5be48bf74b3a77ced0f763e15ed4f<>res://.godot/imported/Pea_Shooter_vnrm.png-9cf2f3485691c0ae4531044ba11f9dfd.ctex::
-::res://Prefabs/Plants/VAT/Pea_Shooter_2/::1750135765
-export_mesh.mesh::ArrayMesh::8960739357025323799::1750134807::0::1::::<><><>0<>0<><>::
+::res://Prefabs/Plants/VAT/Pea_Shooter_2/::1750451938
+export_mesh.mesh::ArrayMesh::8960739357025323799::1750451840::0::1::::<><><>0<>0<><>::
 normals.png::CompressedTexture2D/CompressedTexture2D::6143611167610466704::1749693802::1750023924::1::::<><><>0<>0<>c552fed985ebc8326bd05b6be1974b66<>res://.godot/imported/normals.png-b5be203e1f217f6963d687a6264fa2ed.ctex::
 offsets.exr::CompressedTexture2D/CompressedTexture2D::1817289776971201892::1749694016::1750023925::1::::<><><>0<>0<>2ddd855d2a31d5623dec307ccccde393<>res://.godot/imported/offsets.exr-2975f03d021b4e86c78973924512d07a.ctex::
 PeaShooter_Baked.png::CompressedTexture2D/CompressedTexture2D::5681335756202672358::1749693993::1750023925::1::::<><><>0<>0<>71f2f5d37579e37db40a2d7bb5f10b38<>res://.godot/imported/PeaShooter_Baked.png-4b2138b920d017486affa0790575e87c.s3tc.ctex::
-Pea_Shooter_multi_mesh_instance.tscn::PackedScene::17273277607389523::1750135582::0::1::::<><><>0<>0<><>::uid://i7bhpwoio1qw::::res://Prefabs/Plants/VAT/Pea_Shooter_2/vat_multiple_anims.gdshader<>uid://ctsam4mgkxx2g::::res://Prefabs/Plants/VAT/Pea_Shooter_2/normals.png<>uid://05kq5wx24qmu::::res://Prefabs/Plants/VAT/Pea_Shooter_2/offsets.exr<>uid://cm7c1f7h04rva::::res://Prefabs/Plants/VAT/Pea_Shooter_2/PeaShooter_Baked.png<>uid://d0wwckv3w6rnb::::res://Prefabs/Plants/VAT/Pea_Shooter_2/export_mesh.mesh<>uid://bkcs54w82ixih::::res://addons/godot_vat/vat_multi_mesh_instance_3d.gd
-vat_multiple_anims(Backup).gdshader::Shader::3230214164486174129::1750135765::0::1::::<><><>0<>0<><>::
+Pea_Shooter_multi_mesh_instance.tscn::PackedScene::17273277607389523::1750451840::0::1::::<><><>0<>0<><>::uid://i7bhpwoio1qw::::res://Prefabs/Plants/VAT/Pea_Shooter_2/vat_multiple_anims.gdshader<>uid://ctsam4mgkxx2g::::res://Prefabs/Plants/VAT/Pea_Shooter_2/normals.png<>uid://05kq5wx24qmu::::res://Prefabs/Plants/VAT/Pea_Shooter_2/offsets.exr<>uid://cm7c1f7h04rva::::res://Prefabs/Plants/VAT/Pea_Shooter_2/PeaShooter_Baked.png<>uid://d0wwckv3w6rnb::::res://Prefabs/Plants/VAT/Pea_Shooter_2/export_mesh.mesh<>uid://bkcs54w82ixih::::res://addons/godot_vat/vat_multi_mesh_instance_3d.gd
+vat_multiple_anims(Backup).gdshader::Shader::3230214164486174129::1750451938::0::1::::<><><>0<>0<><>::
 vat_multiple_anims(old wave based).gdshader::Shader/Shader::4198220076712947606::1750046314::0::1::::<><><>0<>0<><>::
-vat_multiple_anims.gdshader::Shader::627644877267589454::1750135765::0::1::::<><><>0<>0<><>::
-::res://Prefabs/Plants/VAT/Sun_Flower/::1750135765
+vat_multiple_anims.gdshader::Shader::627644877267589454::1750451938::0::1::::<><><>0<>0<><>::
+::res://Prefabs/Plants/VAT/Sun_Flower/::1750451938
 normals.png::CompressedTexture2D/CompressedTexture2D::6905258025538504872::1750056686::1750056690::1::::<><><>0<>0<>7fa40db9162ee0288abed616f72e1c6e<>res://.godot/imported/normals.png-8e6e0def3c305c4b63e914cfaa1b4e42.s3tc.ctex::
 offsets.exr::CompressedTexture2D/CompressedTexture2D::4758781542196857662::1750056686::1750056692::1::::<><><>0<>0<>d949e4cba9a05ffdd09358ce281b551d<>res://.godot/imported/offsets.exr-80bf020c0e016bb8700abbe6d603d7f1.bptc.ctex::
 Sunflowerv13_Game_VAT.glb::PackedScene/PackedScene::6457470211911627233::1750056695::1750056695::1::::<><><>0<>0<>79dc79b30d861f8efdc251ed5f5c4742<>res://.godot/imported/Sunflowerv13_Game_VAT.glb-7a6e9e8cecc37414a341e9822ad4c932.scn::
 Sunflower_Baked2.png::CompressedTexture2D/CompressedTexture2D::7441166014285080476::1750051107::1750051110::1::::<><><>0<>0<>0aaf4d59958bbb73bcede8d03683a0c3<>res://.godot/imported/Sunflower_Baked2.png-18392125bfc1e7d27c2a7e68ef80bc81.s3tc.ctex::
 Sun_Flower.mesh::ArrayMesh/ArrayMesh::3050576233974372530::1750056794::0::1::::<><><>0<>0<><>::
-Sun_Flower_multi_mesh_instance.tscn::PackedScene::1973996879616292086::1750135582::0::1::::<><><>0<>0<><>::uid://ckt1di47m7ohu::::res://Prefabs/Plants/VAT/Sun_Flower/vat_multiple_anims_Sun_Flower.gdshader<>uid://c5m7uc8gntj57::::res://Prefabs/Plants/VAT/Sun_Flower/normals.png<>uid://b82go34mos32i::::res://Prefabs/Plants/VAT/Sun_Flower/offsets.exr<>uid://deas6gfg18tmq::::res://Prefabs/Plants/VAT/Sun_Flower/Sunflower_Baked2.png<>uid://bjpysr46e7p51::::res://Prefabs/Plants/VAT/Sun_Flower/Sun_Flower.mesh<>uid://bkcs54w82ixih::::res://addons/godot_vat/vat_multi_mesh_instance_3d.gd
-vat_multiple_anims_Sun_Flower.gdshader::Shader::5515537446744677434::1750135765::0::1::::<><><>0<>0<><>::
+Sun_Flower_multi_mesh_instance.tscn::PackedScene::1973996879616292086::1750451841::0::1::::<><><>0<>0<><>::uid://ckt1di47m7ohu::::res://Prefabs/Plants/VAT/Sun_Flower/vat_multiple_anims_Sun_Flower.gdshader<>uid://c5m7uc8gntj57::::res://Prefabs/Plants/VAT/Sun_Flower/normals.png<>uid://b82go34mos32i::::res://Prefabs/Plants/VAT/Sun_Flower/offsets.exr<>uid://deas6gfg18tmq::::res://Prefabs/Plants/VAT/Sun_Flower/Sunflower_Baked2.png<>uid://bjpysr46e7p51::::res://Prefabs/Plants/VAT/Sun_Flower/Sun_Flower.mesh<>uid://bkcs54w82ixih::::res://addons/godot_vat/vat_multi_mesh_instance_3d.gd
+vat_multiple_anims_Sun_Flower.gdshader::Shader::5515537446744677434::1750451938::0::1::::<><><>0<>0<><>::
 ::res://Prefabs/Seed_Slot/::1750023964
 1.tscn::PackedScene/PackedScene::1554600939584684737::1750023964::0::1::::<><><>0<>0<><>::uid://ca2bsmi32crq5::::res://Script/seed_slot.gd<>uid://cwxwgtqlmg0uv::::res://Prefabs/Plants/Pea_Shooter/pea_shooter.tscn<>uid://b1q3qneswflcf::::res://Prefabs/Plants/Pea_Shooter/Pea_Shooter_Mesh.tscn
 seed_slot.tscn::PackedScene/PackedScene::7048043004391036701::1750023964::0::1::::<><><>0<>0<><>::uid://ca2bsmi32crq5::::res://Script/seed_slot.gd
 ::res://Prefabs/Tiles/::1750023965
 road_tile.tscn::PackedScene/PackedScene::3737540690034971140::1750023965::0::1::::<><><>0<>0<><>::uid://bpdfpjr02ut6y::::res://Script/Tile.gd<>uid://0tj2dexb0f8x::::res://Assets/Materials/Road.tres
-::res://Prefabs/Tiles/Fence_Tile/::1750134807
-Fence.tres::StandardMaterial3D::8142876346595388875::1750134807::0::1::::<><><>0<>0<><>::uid://byf7cdflcf8nm::::res://Prefabs/Tiles/Fence_Tile/Fence_Baked.png
+::res://Prefabs/Tiles/Fence_Tile/::1750451839
+Fence.tres::StandardMaterial3D::8142876346595388875::1750451839::0::1::::<><><>0<>0<><>::uid://byf7cdflcf8nm::::res://Prefabs/Tiles/Fence_Tile/Fence_Baked.png
 Fence_Baked.png::CompressedTexture2D/CompressedTexture2D::4083221500929283762::1734129155::1750023925::1::::<><><>0<>0<>dea7488f9b7dc87c5a1732fd637619e0<>res://.godot/imported/Fence_Baked.png-61c67743af602b79359a63cdd2b8c47f.s3tc.ctex::
 fence_tile.tscn::PackedScene/PackedScene::8097589814989332457::1750023964::0::1::::<><><>0<>0<><>::uid://bpdfpjr02ut6y::::res://Script/Tile.gd<>uid://da0076dolus1l::::res://Assets/Materials/Fence.tres<>uid://doap8pg5iliel::::res://Prefabs/Tiles/Fence_Tile/Fence.tres
 Fence_TileV5.fbx::PackedScene/PackedScene::4122363279275366549::1734129108::1750023930::1::::<><><>0<>0<>5b45239c5cd2de667323005dfd6372db<>res://.godot/imported/Fence_TileV5.fbx-5856d98c966de0e4be34deba61ea2c06.scn::uid://doap8pg5iliel::::res://Prefabs/Tiles/Fence_Tile/Fence.tres
 Pea.fbx::PackedScene/PackedScene::1228213574284133913::1734131594::1750023930::1::::<><><>0<>0<>f73fea8aeabaf170a6a7bb69f291a1b8<>res://.godot/imported/Pea.fbx-4ba0ac29906d52f08b719bca22ea7d99.scn::
-::res://Prefabs/Tiles/Grass_Tiles/::1750135765
-Grass.gdshader::Shader::1053887246351125538::1750135765::0::1::::<><><>0<>0<><>::
+::res://Prefabs/Tiles/Grass_Tiles/::1750451938
+Grass.gdshader::Shader::1053887246351125538::1750451938::0::1::::<><><>0<>0<><>::
 Grass.png::CompressedTexture2D/CompressedTexture2D::2849945075523322112::1734108315::1750023925::1::::<><><>0<>0<>1052c52513c29f14023b528464b19fa3<>res://.godot/imported/Grass.png-a8effec0bce39279c4640b727aeb175c.s3tc.ctex::
-Grass.tres::VisualShader::439248365984209744::1750135765::0::1::::<><><>0<>0<><>::uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
-Grass_2.gdshader::Shader::3927533535162915051::1750135765::0::1::::<><><>0<>0<><>::
-Grass_2.tres::ShaderMaterial::2328095997376860022::1750134807::0::1::::<><><>0<>0<><>::uid://bv7r5ypllcf1d::::res://Prefabs/Tiles/Grass_Tiles/Grass_2.gdshader<>uid://b0kp63488r6vq::::res://Prefabs/Tiles/Grass_Tiles/Grass_Overlayv2.png<>uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
+Grass.tres::VisualShader::439248365984209744::1750451938::0::1::::<><><>0<>0<><>::uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
+Grass_2.gdshader::Shader::3927533535162915051::1750451938::0::1::::<><><>0<>0<><>::
+Grass_2.tres::ShaderMaterial::2328095997376860022::1750451839::0::1::::<><><>0<>0<><>::uid://bv7r5ypllcf1d::::res://Prefabs/Tiles/Grass_Tiles/Grass_2.gdshader<>uid://b0kp63488r6vq::::res://Prefabs/Tiles/Grass_Tiles/Grass_Overlayv2.png<>uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
 Grass_Overlayv2.png::CompressedTexture2D/CompressedTexture2D::4162753183684362062::1734118217::1750023926::1::::<><><>0<>0<>dd54177ad7e5f0e13b3adf9e89ef6ae5<>res://.godot/imported/Grass_Overlayv2.png-c641d2935dac62058110df4e973a4a0e.s3tc.ctex::
-grass_tile.tres::VisualShader::6310444743692663567::1750135765::0::1::::<><><>0<>0<><>::uid://b0kp63488r6vq::::res://Prefabs/Tiles/Grass_Tiles/Grass_Overlayv2.png<>uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
+grass_tile.tres::VisualShader::6310444743692663567::1750451938::0::1::::<><><>0<>0<><>::uid://b0kp63488r6vq::::res://Prefabs/Tiles/Grass_Tiles/Grass_Overlayv2.png<>uid://bgusgc640xy1e::::res://Prefabs/Tiles/Grass_Tiles/Grass.png
 Grass_TileV5.fbx::PackedScene/PackedScene::6803589803519440818::1734108171::1750023929::1::::<><><>0<>0<>f7ee6fa88c4e86e9de2e44ba06f46a00<>res://.godot/imported/Grass_TileV5.fbx-c0a6fc3a0cc847025dc2e95e797d7797.scn::
 ::res://Prefabs/Tiles/Grass_Tiles/Grass_tile_1/::1750023964
 grass_tile.tscn::PackedScene/PackedScene::1277397418716856757::1750023964::0::1::::<><><>0<>0<><>::uid://bpdfpjr02ut6y::::res://Script/Tile.gd<>uid://parmssdkhvaw::::res://Prefabs/Tiles/Grass_Tiles/Grass.gdshader<>uid://dwi7tpycuvohf::::res://Prefabs/Grass/Grass_MeshV2.obj<>uid://8f0nvqprcnys::::res://Prefabs/Tiles/Grass_Tiles/Grass_2.tres
@@ -180,8 +179,8 @@ grass_tile_3.tscn::PackedScene/PackedScene::446895932346279006::1750023964::0::1
 ::res://Prefabs/Tiles/Grass_Tiles/Grass_tile_4/::1750023965
 grass_tile_4.tscn::PackedScene/PackedScene::5115531177760510746::1750023965::0::1::::<><><>0<>0<><>::uid://bpdfpjr02ut6y::::res://Script/Tile.gd<>uid://parmssdkhvaw::::res://Prefabs/Tiles/Grass_Tiles/Grass.gdshader<>uid://dwi7tpycuvohf::::res://Prefabs/Grass/Grass_MeshV2.obj<>uid://8f0nvqprcnys::::res://Prefabs/Tiles/Grass_Tiles/Grass_2.tres
 ::res://Prefabs/Tiles/Stone_Tiles/::1749794203
-::res://Prefabs/Tiles/Stone_Tiles/Model/::1750134807
-Stone_Tile.tres::StandardMaterial3D::4275771557958051821::1750134807::0::1::::<><><>0<>0<><>::uid://3c3o8xrdhxsl::::res://Prefabs/Tiles/Stone_Tiles/Model/Stone_Tile_Atlas.png
+::res://Prefabs/Tiles/Stone_Tiles/Model/::1750451839
+Stone_Tile.tres::StandardMaterial3D::4275771557958051821::1750451839::0::1::::<><><>0<>0<><>::uid://3c3o8xrdhxsl::::res://Prefabs/Tiles/Stone_Tiles/Model/Stone_Tile_Atlas.png
 Stone_Tile_1V2.fbx::PackedScene/PackedScene::2684371489711324351::1733266607::1750023929::1::::<><><>0<>0<>36d9653377225edb6247c27456784d24<>res://.godot/imported/Stone_Tile_1V2.fbx-713162b81aa1a2fa39c1b77ef4603257.scn::uid://b16hlk113t5ob::::res://Prefabs/Tiles/Stone_Tiles/Model/Stone_Tile.tres
 Stone_Tile_Atlas.png::CompressedTexture2D/CompressedTexture2D::1971143223862925715::1733266629::1750023926::1::::<><><>0<>0<>b68a23b9e1c66c56aef2ff2b9dad6fa4<>res://.godot/imported/Stone_Tile_Atlas.png-a1149df52972132301d74872410ae40e.s3tc.ctex::
 ::res://Prefabs/Tiles/Stone_Tiles/Prefabs/::1750023965
@@ -192,30 +191,30 @@ stone_tile_4.tscn::PackedScene/PackedScene::7651325937715664477::1750023965::0::
 ::res://Prefabs/Wave/::1750023965
 wave.tscn::PackedScene/PackedScene::4390143077373396052::1750023965::0::1::::<><><>0<>0<><>::uid://c53rwqyajokia::::res://Wave.gd
 ::res://Prefabs/Zombies/::1749794203
-::res://Prefabs/Zombies/Brown_Coat/::1750135582
+::res://Prefabs/Zombies/Brown_Coat/::1750451841
 Brown_Coat_Zombiev43.fbx::PackedScene/PackedScene::6298784531509668444::1733837536::1750023928::1::::<><><>0<>0<>468e9e64b32f21a1692811d5a079f8db<>res://.godot/imported/Brown_Coat_Zombiev43.fbx-7c7fe410e5a078408b0c2d1513086cac.scn::uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres
 Brown_Coat_Zombiev43_Without_Outline.fbx::PackedScene/PackedScene::3422057188693306623::1733866363::1750023928::1::::<><><>0<>0<>c34bcbdcf60ab2cc9e4709b4db09a3d3<>res://.godot/imported/Brown_Coat_Zombiev43_Without_Outline.fbx-011d60b53beb952660b9718f817c58a0.scn::uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres
-zombie.tscn::PackedScene::4727052966178009285::1750135582::0::1::::<><><>0<>0<><>::uid://cuxaf8osa8spe::::res://Script/Master Components/Hitbox_Component.gd<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://bgkvnovk5hy16::::res://Script/zombie_logic.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://b8ofk5yp5m5w3::::res://Script/Master Components/Zombie_Health_Component.gd<>uid://xbkqm4dlbynj::::res://Script/Master Components/damage_component.tscn<>uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres
+zombie.tscn::PackedScene::4727052966178009285::1750451841::0::1::::<><><>0<>0<><>::uid://cuxaf8osa8spe::::res://Script/Master Components/Hitbox_Component.gd<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://bgkvnovk5hy16::::res://Script/zombie_logic.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://b8ofk5yp5m5w3::::res://Script/Master Components/Zombie_Health_Component.gd<>uid://xbkqm4dlbynj::::res://Script/Master Components/damage_component.tscn<>uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres
 Zombie_Bake.png::CompressedTexture2D/CompressedTexture2D::9107541941993198093::1733837677::1750023925::1::::<><><>0<>0<>9e57e230403d672a7a860f80e4fefa66<>res://.godot/imported/Zombie_Bake.png-440949c642b8536e010cec2b67f78238.s3tc.ctex::
-Zombie_brown_coat.tres::StandardMaterial3D::1585095394139622929::1750134807::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
-::res://Prefabs/Zombies/Cone_Head/::1750135582
-zombie_ConeHead.tscn::PackedScene::3123450174546768895::1750135582::0::1::::<><><>0<>0<><>::uid://bgkvnovk5hy16::::res://Script/zombie_logic.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b8ofk5yp5m5w3::::res://Script/Master Components/Zombie_Health_Component.gd<>uid://duqsc0gfepvw5::::res://Assets/Materials/Outline.tres<>uid://cuxaf8osa8spe::::res://Script/Master Components/Hitbox_Component.gd<>uid://xbkqm4dlbynj::::res://Script/Master Components/damage_component.tscn<>uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres<>uid://dgammgbghcrke::::res://Prefabs/Zombies/Cone_Head/Zombie_Cone_Head.tres
-Zombie_Cone_Head.tres::StandardMaterial3D::7581145463314524572::1750134807::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
+Zombie_brown_coat.tres::StandardMaterial3D::1585095394139622929::1750451839::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
+::res://Prefabs/Zombies/Cone_Head/::1750451841
+zombie_ConeHead.tscn::PackedScene::3123450174546768895::1750451841::0::1::::<><><>0<>0<><>::uid://bgkvnovk5hy16::::res://Script/zombie_logic.gd<>uid://dwyhwcmfpnb83::::res://Prefabs/Default_Destroyed_Effect.tscn<>uid://cvdofsa4c2tf5::::res://Script/Master Components/health_component.tscn<>uid://b8ofk5yp5m5w3::::res://Script/Master Components/Zombie_Health_Component.gd<>uid://duqsc0gfepvw5::::res://Assets/Materials/Outline.tres<>uid://cuxaf8osa8spe::::res://Script/Master Components/Hitbox_Component.gd<>uid://xbkqm4dlbynj::::res://Script/Master Components/damage_component.tscn<>uid://wt3j3yykgi6d::::res://Prefabs/Zombies/Brown_Coat/Zombie_brown_coat.tres<>uid://dgammgbghcrke::::res://Prefabs/Zombies/Cone_Head/Zombie_Cone_Head.tres
+Zombie_Cone_Head.tres::StandardMaterial3D::7581145463314524572::1750451839::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
 ::res://Prefabs/Zombies_VAT/::1750070878
-::res://Prefabs/Zombies_VAT/BrownCoat/::1750135765
+::res://Prefabs/Zombies_VAT/BrownCoat/::1750451938
 Base Body-remap_info.json::JSON/JSON::-1::1739995513::0::1::::<><><>0<>0<><>::
 Base Body_vat.png::CompressedTexture2D/CompressedTexture2D::7518247730434900450::1739994923::1750023925::1::::<><><>0<>0<>7f3102dcaf2fea666fba9d01d45f1161<>res://.godot/imported/Base Body_vat.png-2d63e597f2c15e08fdcf60a17387c2b6.ctex::
 Base Body_vnrm.png::CompressedTexture2D/CompressedTexture2D::2423794959353530424::1739994928::1750023925::1::::<><><>0<>0<>0d349b967215935eddac4398d98d9755<>res://.godot/imported/Base Body_vnrm.png-d5ef5dd3cc549729502b5a12a4f81a5b.ctex::
 Brown_Coat_Zombie_VAT_test2.glb::PackedScene/PackedScene::3964895638088263052::1739995033::1750023927::1::::<><><>0<>0<>1198f540a1be9b1b36955a6540a68609<>res://.godot/imported/Brown_Coat_Zombie_VAT_test2.glb-b4163caca9235043a3ce63f00ccf8566.scn::uid://nylpcs4go1kg::::res://Prefabs/Zombies_VAT/BrownCoat/Zomb_vat_3.tres
-VAT_Shader.tres::VisualShader::7353168260795350867::1750135765::0::1::::<><><>0<>0<><>::
-Zomb_VAT.tres::VisualShader::906529851562789908::1750135765::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
+VAT_Shader.tres::VisualShader::7353168260795350867::1750451938::0::1::::<><><>0<>0<><>::
+Zomb_VAT.tres::VisualShader::906529851562789908::1750451938::0::1::::<><><>0<>0<><>::uid://d2005dif7uffp::::res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png
 Zomb_vat_3.tres::ShaderMaterial/ShaderMaterial::962694841400265906::1740005661::0::1::::<><><>0<>0<><>::uid://m6eoc3dfpkyu::::res://Prefabs/Zombies_VAT/BrownCoat/Zomb_VAT.tres<>uid://dfd5paug7fyxm::::res://Prefabs/Zombies_VAT/BrownCoat/Base Body_vat.png
 ::res://Prefabs/Zombies_VAT/BrownCoat2/::1750070955
 Brown_Coat_Zombie_VAT3.glb::PackedScene/PackedScene::6795639229744241947::1750070892::1750070893::1::::<><><>0<>0<>7a6af43e5dd8dd861ea21878abdf5dec<>res://.godot/imported/Brown_Coat_Zombie_VAT3.glb-97cf3697bb288fd60511f7da601869a2.scn::
 Brown_Coat_Zombie_VAT_test2_Ucupaint Material.png::CompressedTexture2D/CompressedTexture2D::867389779596190381::1739995137::1750070955::1::::<><><>0<>0<>c06234d33f032ec38d52490e143d4885<>res://.godot/imported/Brown_Coat_Zombie_VAT_test2_Ucupaint Material.png-73ad9903f104a0bd8b7c3ba1c09a562e.s3tc.ctex::
 normals.png::CompressedTexture2D/CompressedTexture2D::2755551744879367074::1750070899::1750070900::1::::<><><>0<>0<>83848dfa059d4f960ad036c34dbc9c60<>res://.godot/imported/normals.png-4f5394885bde517022f7a0e3f0a08d92.ctex::
 offsets.exr::CompressedTexture2D/CompressedTexture2D::8478615071271329605::1750070899::1750070900::1::::<><><>0<>0<>d60bca66fdd705b8040f497d7907ffec<>res://.godot/imported/offsets.exr-35027285d1c3c2178cb845c49474ee44.ctex::
-::res://Script/::1750135509
+::res://Script/::1750506448
 Attack.gd::GDScript/GDScript::7543254707291233694::1725308336::0::1::::Attack<>RefCounted<><>0<>0<><>::
 Bullet.gd::GDScript/GDScript::3248258408621406390::1725288991::0::1::::<>RayCast3D<><>0<>0<><>::
 Damage_Component.gd::GDScript/GDScript::2260003963349960046::1733858787::0::1::::Damage_Component<>Node3D<><>0<>0<><>::
@@ -231,8 +230,9 @@ sun.gd::GDScript/GDScript::4393723312385655276::1732530238::0::1::::Sun<>Node3D<
 Sun_flower.gd::GDScript/GDScript::302493650271779327::1732898699::0::1::::Sun_Flower<>Plant<><>0<>0<><>::
 Tile.gd::GDScript/GDScript::3445777343542774066::1750057540::0::1::::Tile<>Game_Manager<><>0<>0<><>::
 UI.gd::GDScript/GDScript::228393223600937939::1740054851::0::1::::UI<>Control<><>0<>0<><>::
-zombie_logic.gd::GDScript::2829496563493295371::1750135509::0::1::::Zombie<>Node3D<><>0<>0<><>::
-Zombie_mesh_instances_manager.gd::GDScript::8041712251466328713::1750135184::0::1::::<>Node3D<><>0<>0<><>::
+Wave.gd::GDScript::6937381607445282360::1733859735::0::1::::Wave<>Node3D<><>0<>0<><>::
+zombie_logic.gd::GDScript/GDScript::2829496563493295371::1750135509::0::1::::Zombie<>Node3D<><>0<>0<><>::
+Zombie_mesh_instances_manager.gd::GDScript/GDScript::8041712251466328713::1750135184::0::1::::<>Node3D<><>0<>0<><>::
 ::res://Script/Master Components/::1750077539
 damage_component.tscn::PackedScene/PackedScene::1617044199289550843::1750023966::0::1::::<><><>0<>0<><>::uid://7g0617uvsx6u::::res://Script/Damage_Component.gd
 Health_Component.gd::GDScript/GDScript::3413376611139821610::1750077539::0::1::::Health_Component<>Node3D<><>0<>0<><>::
