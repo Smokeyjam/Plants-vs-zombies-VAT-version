@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://btiq0p701g16o"]
+
+[ext_resource type="Script" uid="uid://bpdfpjr02ut6y" path="res://Script/Tile.gd" id="1_3wpgo"]
+[ext_resource type="Material" uid="uid://0tj2dexb0f8x" path="res://Assets/Materials/Road.tres" id="2_qfs0r"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_6157o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fes1q"]
+size = Vector3(2, 0.08, 2)
+
+[node name="Road_Tile" type="StaticBody3D"]
+collision_mask = 0
+script = ExtResource("1_3wpgo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, -8.74228e-08, 2, 0, -2, -8.74228e-08, 0, 0, 0)
+material_override = ExtResource("2_qfs0r")
+mesh = SubResource("QuadMesh_6157o")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0154405, 0)
+shape = SubResource("BoxShape3D_fes1q")

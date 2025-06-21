@@ -1,0 +1,25 @@
+[gd_resource type="ShaderMaterial" load_steps=7 format=3 uid="uid://bmxloq6qtcupn"]
+
+[ext_resource type="Shader" path="res://Assets/Materials/Cel_Shader.gdshader" id="1_yyu2s"]
+[ext_resource type="Texture2D" uid="uid://ddglca7h1qqw2" path="res://Assets/Textures/Atlas_Low_Resv3.png" id="2_8qiyj"]
+
+[sub_resource type="Gradient" id="Gradient_etwog"]
+offsets = PackedFloat32Array(0.544413, 0.545845)
+colors = PackedColorArray(0, 0, 0, 1, 0.770733, 0.601001, 0.608353, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_032wd"]
+gradient = SubResource("Gradient_etwog")
+
+[sub_resource type="Gradient" id="Gradient_i2tag"]
+offsets = PackedFloat32Array(0.991404, 1)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_43muj"]
+gradient = SubResource("Gradient_i2tag")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_yyu2s")
+shader_parameter/texture_wheel = ExtResource("2_8qiyj")
+shader_parameter/color_gradient = SubResource("GradientTexture2D_032wd")
+shader_parameter/fresnel_gradient = SubResource("GradientTexture2D_43muj")

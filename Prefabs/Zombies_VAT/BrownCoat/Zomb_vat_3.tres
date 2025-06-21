@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://nylpcs4go1kg"]
+
+[ext_resource type="Shader" uid="uid://m6eoc3dfpkyu" path="res://Prefabs/Zombies_VAT/BrownCoat/Zomb_VAT.tres" id="1_idbxh"]
+[ext_resource type="Texture2D" uid="uid://dfd5paug7fyxm" path="res://Prefabs/Zombies_VAT/BrownCoat/Base Body_vat.png" id="2_7chqa"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_idbxh")
+shader_parameter/AutoLoop = true
+shader_parameter/Framerate = 24.0
+shader_parameter/Current_Frame = 0.0
+shader_parameter/Number_of_Frames = 64
+shader_parameter/Min = Vector3(-0.5, -4.2, -1.4)
+shader_parameter/Max = Vector3(1.1, 2.1, 0.8)
+shader_parameter/Vertex_Animation_Texture = ExtResource("2_7chqa")

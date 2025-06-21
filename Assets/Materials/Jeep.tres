@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://b5w7hkm3jrnra"]
+
+[ext_resource type="Texture2D" uid="uid://dbufdqr5xvst0" path="res://Assets/Cars/Jeep/JeepV39 Atlas_Atlas_Low_Res.png" id="1_0j2w3"]
+[ext_resource type="Texture2D" uid="uid://ddglca7h1qqw2" path="res://Assets/Textures/Atlas_Low_Resv3.png" id="1_jflqu"]
+
+[resource]
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_jflqu")
+detail_albedo = ExtResource("1_0j2w3")
+texture_filter = 1

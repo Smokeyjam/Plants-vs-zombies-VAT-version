@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://lpmp6u025uhn"]
+
+[ext_resource type="Material" uid="uid://bybedy3fgt47f" path="res://Prefabs/Bullets/Pea.tres" id="1_8er4u"]
+[ext_resource type="Script" uid="uid://bmjqluw6fhfus" path="res://Script/Bullet.gd" id="1_xgnbr"]
+[ext_resource type="Material" uid="uid://tll1s4wxrwln" path="res://Assets/Materials/Pea_Particle_Effect.tres" id="2_413ql"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_yeadt"]
+direction = Vector3(0, 0, -1)
+initial_velocity_min = 3.0
+initial_velocity_max = 5.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_u234f"]
+size = Vector3(0.04, 0.04, 0.04)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ryjn8"]
+
+[node name="Bullet" type="RayCast3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.5)
+target_position = Vector3(0, 0, 1)
+collision_mask = 2
+hit_from_inside = true
+collide_with_areas = true
+collide_with_bodies = false
+script = ExtResource("1_xgnbr")
+attack_damage = 10
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="."]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 0.999999, 0, 8.74228e-08, 0, -1, 0, 0, 1.055)
+material_override = ExtResource("2_413ql")
+emitting = false
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_yeadt")
+draw_pass_1 = SubResource("BoxMesh_u234f")
+
+[node name="Bullet_mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 1, 0, 0, 0.5)
+material_override = ExtResource("1_8er4u")
+mesh = SubResource("BoxMesh_ryjn8")
+skeleton = NodePath("")

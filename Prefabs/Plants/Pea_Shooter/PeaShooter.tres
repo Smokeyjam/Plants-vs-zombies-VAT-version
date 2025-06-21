@@ -1,0 +1,14 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cb4xd8gqgh64l"]
+
+[ext_resource type="Texture2D" uid="uid://jvhkekubcv3i" path="res://Prefabs/Plants/Pea_Shooter/PeaShooter_Baked.png" id="1_f0rui"]
+
+[resource]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+shading_mode = 0
+specular_mode = 2
+disable_ambient_light = true
+disable_fog = true
+albedo_texture = ExtResource("1_f0rui")
+disable_receive_shadows = true

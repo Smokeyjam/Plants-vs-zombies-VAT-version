@@ -1,0 +1,38 @@
+[gd_scene load_steps=9 format=3 uid="uid://imquspdfn8f"]
+
+[ext_resource type="Shader" uid="uid://i7bhpwoio1qw" path="res://Prefabs/Plants/VAT/Pea_Shooter_2/vat_multiple_anims.gdshader" id="1_yn3o2"]
+[ext_resource type="Texture2D" uid="uid://ctsam4mgkxx2g" path="res://Prefabs/Plants/VAT/Pea_Shooter_2/normals.png" id="2_jf0f1"]
+[ext_resource type="Texture2D" uid="uid://05kq5wx24qmu" path="res://Prefabs/Plants/VAT/Pea_Shooter_2/offsets.exr" id="3_k637f"]
+[ext_resource type="Texture2D" uid="uid://cm7c1f7h04rva" path="res://Prefabs/Plants/VAT/Pea_Shooter_2/PeaShooter_Baked.png" id="4_6kcki"]
+[ext_resource type="ArrayMesh" uid="uid://d0wwckv3w6rnb" path="res://Prefabs/Plants/VAT/Pea_Shooter_2/export_mesh.mesh" id="5_57e7y"]
+[ext_resource type="Script" uid="uid://bkcs54w82ixih" path="res://addons/godot_vat/vat_multi_mesh_instance_3d.gd" id="6_0o2ae"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j6jxv"]
+render_priority = 0
+shader = ExtResource("1_yn3o2")
+shader_parameter/offset_map = ExtResource("3_k637f")
+shader_parameter/normal_map = ExtResource("2_jf0f1")
+shader_parameter/texture_albedo = ExtResource("4_6kcki")
+shader_parameter/alpha_hash_scale = 0.0
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/point_size = 0.0
+shader_parameter/fps = 24.0
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 0.0
+
+[sub_resource type="MultiMesh" id="MultiMesh_vqrrs"]
+transform_format = 1
+use_custom_data = true
+instance_count = 1
+mesh = ExtResource("5_57e7y")
+buffer = PackedFloat32Array(5.60519e-45, 1.4013e-44, 7.00649e-45, 5.60519e-45, 1.54143e-44, 1.4013e-44, 7.00649e-45, 1.26117e-44, 8.40779e-45, 7.00649e-45, 1.4013e-44, 1.26117e-44, 8.40779e-45, 1.12104e-44, 9.80909e-45, 8.40779e-45)
+
+[node name="Pea_Shooter" type="MultiMeshInstance3D"]
+material_override = SubResource("ShaderMaterial_j6jxv")
+cast_shadow = 0
+gi_mode = 0
+multimesh = SubResource("MultiMesh_vqrrs")
+script = ExtResource("6_0o2ae")
+instance_count = 1
+animation_tracks = Array[Vector2i]([Vector2i(0, 42)])

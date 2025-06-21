@@ -1,0 +1,81 @@
+[gd_resource type="VisualShader" load_steps=11 format=3 uid="uid://gi1meaphl2q3"]
+
+[ext_resource type="Texture2D" uid="uid://bgusgc640xy1e" path="res://Prefabs/Tiles/Grass_Tiles/Grass.png" id="1_w7xe8"]
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_mtvxt"]
+texture = ExtResource("1_w7xe8")
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_xnrm3"]
+input_name = "node_position_world"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_durnp"]
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_fywag"]
+texture = SubResource("CompressedTexture2D_durnp")
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_h5hgd"]
+
+[sub_resource type="VisualShaderNodeTexture" id="VisualShaderNodeTexture_mjjiv"]
+output_port_for_preview = 0
+texture = SubResource("NoiseTexture2D_h5hgd")
+texture_type = 1
+
+[sub_resource type="VisualShaderNodeColorFunc" id="VisualShaderNodeColorFunc_7wmac"]
+function = 1
+
+[sub_resource type="VisualShaderNodeMix" id="VisualShaderNodeMix_y6ki6"]
+output_port_for_preview = 0
+default_input_values = [0, Vector3(0, 0, 0), 1, Vector3(1, 1, 1), 2, Vector3(0.5, 0.5, 0.5)]
+op_type = 3
+
+[sub_resource type="VisualShaderNodeColorConstant" id="VisualShaderNodeColorConstant_3230h"]
+constant = Color(0.407843, 0.917647, 0.423529, 0.309804)
+
+[resource]
+code = "shader_type spatial;
+render_mode blend_mix, depth_draw_opaque, cull_back, diffuse_lambert, specular_schlick_ggx;
+
+uniform sampler2D tex_frg_2;
+uniform sampler2D tex_frg_6 : source_color;
+
+
+
+void fragment() {
+// Texture2D:2
+	vec4 n_out2p0 = texture(tex_frg_2, UV);
+
+
+// ColorConstant:9
+	vec4 n_out9p0 = vec4(0.407843, 0.917647, 0.423529, 0.309804);
+
+
+// Texture2D:6
+	vec4 n_out6p0 = texture(tex_frg_6, UV);
+
+
+// Mix:8
+	vec3 n_out8p0 = mix(vec3(n_out2p0.xyz), vec3(n_out9p0.xyz), vec3(n_out6p0.xyz));
+
+
+// Output:0
+	ALBEDO = n_out8p0;
+
+
+}
+"
+nodes/fragment/0/position = Vector2(720, 140)
+nodes/fragment/2/node = SubResource("VisualShaderNodeTexture_mtvxt")
+nodes/fragment/2/position = Vector2(-360, 0)
+nodes/fragment/3/node = SubResource("VisualShaderNodeInput_xnrm3")
+nodes/fragment/3/position = Vector2(-740, 820)
+nodes/fragment/4/node = SubResource("VisualShaderNodeTexture_fywag")
+nodes/fragment/4/position = Vector2(-200, 1040)
+nodes/fragment/6/node = SubResource("VisualShaderNodeTexture_mjjiv")
+nodes/fragment/6/position = Vector2(-260, 440)
+nodes/fragment/7/node = SubResource("VisualShaderNodeColorFunc_7wmac")
+nodes/fragment/7/position = Vector2(-80, -40)
+nodes/fragment/8/node = SubResource("VisualShaderNodeMix_y6ki6")
+nodes/fragment/8/position = Vector2(180, 140)
+nodes/fragment/9/node = SubResource("VisualShaderNodeColorConstant_3230h")
+nodes/fragment/9/position = Vector2(-160, 300)
+nodes/fragment/connections = PackedInt32Array(2, 0, 8, 0, 6, 0, 8, 2, 9, 0, 8, 1, 8, 0, 0, 0)

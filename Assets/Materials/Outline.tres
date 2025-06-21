@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://duqsc0gfepvw5"]
+
+[resource]
+transparency = 3
+alpha_hash_scale = 1.0
+alpha_antialiasing_mode = 0
+depth_draw_mode = 2
+vertex_color_is_srgb = true
+albedo_color = Color(0, 0, 0, 1)

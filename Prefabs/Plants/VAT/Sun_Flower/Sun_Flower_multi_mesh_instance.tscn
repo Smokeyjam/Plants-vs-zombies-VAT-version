@@ -1,0 +1,38 @@
+[gd_scene load_steps=9 format=3 uid="uid://3eho74y0sl4q"]
+
+[ext_resource type="Shader" uid="uid://ckt1di47m7ohu" path="res://Prefabs/Plants/VAT/Sun_Flower/vat_multiple_anims_Sun_Flower.gdshader" id="1_0psuj"]
+[ext_resource type="Texture2D" uid="uid://c5m7uc8gntj57" path="res://Prefabs/Plants/VAT/Sun_Flower/normals.png" id="2_0psuj"]
+[ext_resource type="Texture2D" uid="uid://b82go34mos32i" path="res://Prefabs/Plants/VAT/Sun_Flower/offsets.exr" id="3_o7l7n"]
+[ext_resource type="Texture2D" uid="uid://deas6gfg18tmq" path="res://Prefabs/Plants/VAT/Sun_Flower/Sunflower_Baked2.png" id="4_adpah"]
+[ext_resource type="ArrayMesh" uid="uid://bjpysr46e7p51" path="res://Prefabs/Plants/VAT/Sun_Flower/Sun_Flower.mesh" id="5_0psuj"]
+[ext_resource type="Script" uid="uid://bkcs54w82ixih" path="res://addons/godot_vat/vat_multi_mesh_instance_3d.gd" id="6_fcr5l"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_j6jxv"]
+render_priority = 0
+shader = ExtResource("1_0psuj")
+shader_parameter/offset_map = ExtResource("3_o7l7n")
+shader_parameter/normal_map = ExtResource("2_0psuj")
+shader_parameter/texture_albedo = ExtResource("4_adpah")
+shader_parameter/alpha_hash_scale = 0.0
+shader_parameter/albedo = Color(1, 1, 1, 1)
+shader_parameter/point_size = 0.0
+shader_parameter/fps = 24.0
+shader_parameter/specular = 0.0
+shader_parameter/metallic = 0.0
+shader_parameter/roughness = 0.0
+
+[sub_resource type="MultiMesh" id="MultiMesh_vqrrs"]
+transform_format = 1
+use_custom_data = true
+instance_count = 1
+mesh = ExtResource("5_0psuj")
+buffer = PackedFloat32Array(5.60519e-45, 1.4013e-44, 7.00649e-45, 5.60519e-45, 1.54143e-44, 1.4013e-44, 7.00649e-45, 1.26117e-44, 8.40779e-45, 7.00649e-45, 1.4013e-44, 1.26117e-44, 8.40779e-45, 1.12104e-44, 9.80909e-45, 8.40779e-45)
+
+[node name="Sun_Flower" type="MultiMeshInstance3D"]
+material_override = SubResource("ShaderMaterial_j6jxv")
+cast_shadow = 0
+gi_mode = 0
+multimesh = SubResource("MultiMesh_vqrrs")
+script = ExtResource("6_fcr5l")
+instance_count = 1
+animation_tracks = Array[Vector2i]([Vector2i(1, 45)])

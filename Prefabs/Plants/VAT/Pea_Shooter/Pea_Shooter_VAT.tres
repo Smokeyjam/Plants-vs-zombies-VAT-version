@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=3 uid="uid://dp3pvgasbfb7c"]
+
+[ext_resource type="Shader" uid="uid://dc06uvvlcxpxr" path="res://Prefabs/Zombies_VAT/BrownCoat/VAT_Shader.tres" id="1_bpm6f"]
+[ext_resource type="Texture2D" uid="uid://jvhkekubcv3i" path="res://Prefabs/Plants/Pea_Shooter/PeaShooter_Baked.png" id="2_ixw0v"]
+[ext_resource type="Texture2D" uid="uid://buoccsrbbqefw" path="res://Prefabs/Plants/VAT/Pea_Shooter/Pea_Shooter_vat.png" id="3_j80qj"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_bpm6f")
+shader_parameter/AutoLoop = false
+shader_parameter/Framerate = 24.01
+shader_parameter/Current_Frame = 21.805
+shader_parameter/Number_of_Frames = 42
+shader_parameter/Min = Vector3(-0.9, -2.1, -0.6)
+shader_parameter/Max = Vector3(1.9, 2.7, 1)
+shader_parameter/Vertex_Animation_Texture = ExtResource("3_j80qj")
+shader_parameter/Texture2DParameter = ExtResource("2_ixw0v")

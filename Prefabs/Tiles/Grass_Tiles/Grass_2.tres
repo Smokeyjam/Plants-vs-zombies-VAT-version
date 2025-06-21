@@ -1,0 +1,27 @@
+[gd_resource type="ShaderMaterial" load_steps=6 format=3 uid="uid://8f0nvqprcnys"]
+
+[ext_resource type="Shader" uid="uid://bv7r5ypllcf1d" path="res://Prefabs/Tiles/Grass_Tiles/Grass_2.gdshader" id="1_aecg1"]
+[ext_resource type="Texture2D" uid="uid://b0kp63488r6vq" path="res://Prefabs/Tiles/Grass_Tiles/Grass_Overlayv2.png" id="2_qehq1"]
+[ext_resource type="Texture2D" uid="uid://bgusgc640xy1e" path="res://Prefabs/Tiles/Grass_Tiles/Grass.png" id="2_ynss8"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_6m4fx"]
+frequency = 0.0014
+fractal_octaves = 1
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_6e2vx"]
+width = 2048
+height = 2048
+seamless = true
+seamless_blend_skirt = 0.47
+noise = SubResource("FastNoiseLite_6m4fx")
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_aecg1")
+shader_parameter/texture_albedo = ExtResource("2_ynss8")
+shader_parameter/Grass_Overlay = ExtResource("2_qehq1")
+shader_parameter/Noise = SubResource("NoiseTexture2D_6e2vx")
+shader_parameter/noise_intensity = 0.085
+shader_parameter/noise_scale = 0.41
+shader_parameter/Grass_intensity = 0.055
+shader_parameter/Grass_scale = 0.3

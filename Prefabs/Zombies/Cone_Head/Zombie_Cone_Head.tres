@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dgammgbghcrke"]
+
+[ext_resource type="Texture2D" uid="uid://d2005dif7uffp" path="res://Prefabs/Zombies/Brown_Coat/Zombie_Bake.png" id="1_lsnyk"]
+
+[resource]
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 2
+albedo_color = Color(0.907134, 0.566725, 0.370502, 1)
+albedo_texture = ExtResource("1_lsnyk")

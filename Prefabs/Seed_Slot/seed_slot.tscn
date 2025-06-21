@@ -1,0 +1,65 @@
+[gd_scene load_steps=11 format=3 uid="uid://c7oeid08okvq0"]
+
+[ext_resource type="Script" uid="uid://ca2bsmi32crq5" path="res://Script/seed_slot.gd" id="1_snunj"]
+
+[sub_resource type="Gradient" id="Gradient_7immv"]
+colors = PackedColorArray(0, 0, 0, 0, 1, 1, 1, 1)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_nel7l"]
+domain_warp_enabled = true
+domain_warp_fractal_gain = -0.01
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_yhcu5"]
+width = 128
+height = 64
+color_ramp = SubResource("Gradient_7immv")
+noise = SubResource("FastNoiseLite_nel7l")
+
+[sub_resource type="Gradient" id="Gradient_jopma"]
+offsets = PackedFloat32Array(0, 0.0913043)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_e5cjx"]
+gradient = SubResource("Gradient_jopma")
+width = 128
+
+[sub_resource type="Gradient" id="Gradient_k6ef1"]
+colors = PackedColorArray(0, 0, 0, 0, 1, 1, 1, 0.541176)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0hnu8"]
+gradient = SubResource("Gradient_k6ef1")
+width = 128
+fill_to = Vector2(0, 1)
+
+[sub_resource type="Gradient" id="Gradient_nfl5r"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_cxvba"]
+gradient = SubResource("Gradient_nfl5r")
+width = 128
+height = 200
+
+[node name="Seed_Slot" type="TextureButton"]
+action_mode = 0
+texture_normal = SubResource("NoiseTexture2D_yhcu5")
+texture_pressed = SubResource("GradientTexture2D_e5cjx")
+texture_hover = SubResource("GradientTexture2D_0hnu8")
+stretch_mode = 0
+script = ExtResource("1_snunj")
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+layout_mode = 0
+offset_right = 128.0
+offset_bottom = 200.0
+step = 0.0
+value = 100.0
+fill_mode = 3
+texture_progress = SubResource("GradientTexture2D_cxvba")
+tint_progress = Color(0.352941, 0.352941, 0.352941, 0.788235)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 7.5
+one_shot = true
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

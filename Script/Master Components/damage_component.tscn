@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://xbkqm4dlbynj"]
+
+[ext_resource type="Script" uid="uid://7g0617uvsx6u" path="res://Script/Damage_Component.gd" id="1_0df6f"]
+
+[node name="Damage_Component" type="Area3D"]
+collision_layer = 0
+collision_mask = 2
+input_ray_pickable = false
+monitorable = false
+script = ExtResource("1_0df6f")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

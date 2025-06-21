@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://duaehldb7p8k7"]
+
+[ext_resource type="Texture2D" uid="uid://dbufdqr5xvst0" path="res://Assets/Cars/Jeep/JeepV39 Atlas_Atlas_Low_Res.png" id="1_qls4y"]
+
+[resource]
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 1
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_qls4y")

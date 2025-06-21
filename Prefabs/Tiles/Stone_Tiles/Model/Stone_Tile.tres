@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b16hlk113t5ob"]
+
+[ext_resource type="Texture2D" uid="uid://3c3o8xrdhxsl" path="res://Prefabs/Tiles/Stone_Tiles/Model/Stone_Tile_Atlas.png" id="1_q3w0v"]
+
+[resource]
+render_priority = 1
+shading_mode = 0
+diffuse_mode = 3
+specular_mode = 2
+albedo_color = Color(0.959234, 0.973174, 0.967697, 1)
+albedo_texture = ExtResource("1_q3w0v")
+disable_receive_shadows = true
